@@ -459,8 +459,8 @@ async def cancel(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
 #  ЗАПУСК
 # ══════════════════════════════════════════════════════
 def main():
-    if BOT_TOKEN.startswith("ВСТАВЬТЕ"): print("❌ Укажите токен в config.py!"); return
-    if ADMIN_ID == 123456789: print("⚠️ Укажите ADMIN_ID в config.py!")
+    if BOT_TOKEN.startswith("ВСТАВЬТЕ"): print("❌ Укажите токен в config (1).py!"); return
+    if ADMIN_ID == 123456789: print("⚠️ Укажите ADMIN_ID в config (1).py!")
 
     # Запускаем веб-сервер для пингов (чтобы Render не усыпил)
     keep_alive()
